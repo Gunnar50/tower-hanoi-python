@@ -9,13 +9,17 @@ BLUE = (0, 0, 255)
 RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
 BROWN = (57, 42, 26)
-BGCOLOUR = LIGHTBROWN
+COLOURS = [RED, GREEN, BLUE, YELLOW, WHITE]
 
 # game settings
+BGCOLOUR = LIGHTBROWN
 FPS = 60
 TITLE = "Tower of Hanoi"
-WIDTH = 500
-HEIGHT = 500
+WIDTH = 1200
+HEIGHT = 700
+
+DISC_HEIGHT = 30
+GAPSIZE = 10
 
 import pygame
 pygame.init()
